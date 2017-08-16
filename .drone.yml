@@ -31,6 +31,6 @@ pipeline:
     server: https://drone.eorlbruder.de
     fork: true
     repositories:
-      	- supervisord
-	- nsupdate
+      - supervisord
+      - nsupdate
     secrets: [ downstream_token ]
